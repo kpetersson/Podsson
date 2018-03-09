@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B68E3852052B9CC00DB49BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B68E3842052B9CC00DB49BB /* AppDelegate.swift */; };
+		1B68E3872052B9CC00DB49BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B68E3862052B9CC00DB49BB /* ViewController.swift */; };
+		1B68E38A2052B9CC00DB49BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B68E3882052B9CC00DB49BB /* Main.storyboard */; };
+		1B68E38C2052B9CC00DB49BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B68E38B2052B9CC00DB49BB /* Assets.xcassets */; };
+		1B68E38F2052B9CC00DB49BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B68E38D2052B9CC00DB49BB /* LaunchScreen.storyboard */; };
+		1B68E39A2052B9CC00DB49BB /* PodssonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B68E3992052B9CC00DB49BB /* PodssonTests.swift */; };
+		1B68E3A52052B9CC00DB49BB /* PodssonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B68E3A42052B9CC00DB49BB /* PodssonUITests.swift */; };
+		1B68E3AA2052B9CC00DB49BB /* Podsson WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1B68E3A92052B9CC00DB49BB /* Podsson WatchKit App.app */; };
+		1B68E3B02052B9CC00DB49BB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B68E3AE2052B9CC00DB49BB /* Interface.storyboard */; };
+		1B68E3B22052B9CC00DB49BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B68E3B12052B9CC00DB49BB /* Assets.xcassets */; };
+		1B68E3B92052B9CC00DB49BB /* Podsson WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1B68E3B82052B9CC00DB49BB /* Podsson WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1B68E3BE2052B9CC00DB49BB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B68E3BD2052B9CC00DB49BB /* InterfaceController.swift */; };
+		1B68E3C02052B9CC00DB49BB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B68E3BF2052B9CC00DB49BB /* ExtensionDelegate.swift */; };
+		1B68E3C22052B9CC00DB49BB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B68E3C12052B9CC00DB49BB /* NotificationController.swift */; };
+		1B68E3C42052B9CC00DB49BB /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B68E3C32052B9CC00DB49BB /* ComplicationController.swift */; };
+		1B68E3C62052B9CC00DB49BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B68E3C52052B9CC00DB49BB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B68E3962052B9CC00DB49BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B68E3792052B9CC00DB49BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B68E3802052B9CC00DB49BB;
+			remoteInfo = Podsson;
+		};
+		1B68E3A12052B9CC00DB49BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B68E3792052B9CC00DB49BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B68E3802052B9CC00DB49BB;
+			remoteInfo = Podsson;
+		};
+		1B68E3AB2052B9CC00DB49BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B68E3792052B9CC00DB49BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B68E3A82052B9CC00DB49BB;
+			remoteInfo = "Podsson WatchKit App";
+		};
+		1B68E3BA2052B9CC00DB49BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B68E3792052B9CC00DB49BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B68E3B72052B9CC00DB49BB;
+			remoteInfo = "Podsson WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1B68E3CE2052B9CC00DB49BB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1B68E3B92052B9CC00DB49BB /* Podsson WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B68E3D22052B9CC00DB49BB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1B68E3AA2052B9CC00DB49BB /* Podsson WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B68E3812052B9CC00DB49BB /* Podsson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Podsson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B68E3842052B9CC00DB49BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B68E3862052B9CC00DB49BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B68E3892052B9CC00DB49BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B68E38B2052B9CC00DB49BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B68E38E2052B9CC00DB49BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B68E3902052B9CC00DB49BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B68E3952052B9CC00DB49BB /* PodssonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodssonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B68E3992052B9CC00DB49BB /* PodssonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodssonTests.swift; sourceTree = "<group>"; };
+		1B68E39B2052B9CC00DB49BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B68E3A02052B9CC00DB49BB /* PodssonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodssonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B68E3A42052B9CC00DB49BB /* PodssonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodssonUITests.swift; sourceTree = "<group>"; };
+		1B68E3A62052B9CC00DB49BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B68E3A92052B9CC00DB49BB /* Podsson WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Podsson WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B68E3AF2052B9CC00DB49BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1B68E3B12052B9CC00DB49BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B68E3B32052B9CC00DB49BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B68E3B82052B9CC00DB49BB /* Podsson WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Podsson WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B68E3BD2052B9CC00DB49BB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1B68E3BF2052B9CC00DB49BB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1B68E3C12052B9CC00DB49BB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1B68E3C32052B9CC00DB49BB /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		1B68E3C52052B9CC00DB49BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B68E3C72052B9CC00DB49BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B68E3C82052B9CC00DB49BB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B68E37E2052B9CC00DB49BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B68E3922052B9CC00DB49BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B68E39D2052B9CC00DB49BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B68E3B52052B9CC00DB49BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B68E3782052B9CC00DB49BB = {
+			isa = PBXGroup;
+			children = (
+				1B68E3832052B9CC00DB49BB /* Podsson */,
+				1B68E3982052B9CC00DB49BB /* PodssonTests */,
+				1B68E3A32052B9CC00DB49BB /* PodssonUITests */,
+				1B68E3AD2052B9CC00DB49BB /* Podsson WatchKit App */,
+				1B68E3BC2052B9CC00DB49BB /* Podsson WatchKit Extension */,
+				1B68E3822052B9CC00DB49BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B68E3822052B9CC00DB49BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B68E3812052B9CC00DB49BB /* Podsson.app */,
+				1B68E3952052B9CC00DB49BB /* PodssonTests.xctest */,
+				1B68E3A02052B9CC00DB49BB /* PodssonUITests.xctest */,
+				1B68E3A92052B9CC00DB49BB /* Podsson WatchKit App.app */,
+				1B68E3B82052B9CC00DB49BB /* Podsson WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B68E3832052B9CC00DB49BB /* Podsson */ = {
+			isa = PBXGroup;
+			children = (
+				1B68E3842052B9CC00DB49BB /* AppDelegate.swift */,
+				1B68E3862052B9CC00DB49BB /* ViewController.swift */,
+				1B68E3882052B9CC00DB49BB /* Main.storyboard */,
+				1B68E38B2052B9CC00DB49BB /* Assets.xcassets */,
+				1B68E38D2052B9CC00DB49BB /* LaunchScreen.storyboard */,
+				1B68E3902052B9CC00DB49BB /* Info.plist */,
+			);
+			path = Podsson;
+			sourceTree = "<group>";
+		};
+		1B68E3982052B9CC00DB49BB /* PodssonTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B68E3992052B9CC00DB49BB /* PodssonTests.swift */,
+				1B68E39B2052B9CC00DB49BB /* Info.plist */,
+			);
+			path = PodssonTests;
+			sourceTree = "<group>";
+		};
+		1B68E3A32052B9CC00DB49BB /* PodssonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B68E3A42052B9CC00DB49BB /* PodssonUITests.swift */,
+				1B68E3A62052B9CC00DB49BB /* Info.plist */,
+			);
+			path = PodssonUITests;
+			sourceTree = "<group>";
+		};
+		1B68E3AD2052B9CC00DB49BB /* Podsson WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1B68E3AE2052B9CC00DB49BB /* Interface.storyboard */,
+				1B68E3B12052B9CC00DB49BB /* Assets.xcassets */,
+				1B68E3B32052B9CC00DB49BB /* Info.plist */,
+			);
+			path = "Podsson WatchKit App";
+			sourceTree = "<group>";
+		};
+		1B68E3BC2052B9CC00DB49BB /* Podsson WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1B68E3BD2052B9CC00DB49BB /* InterfaceController.swift */,
+				1B68E3BF2052B9CC00DB49BB /* ExtensionDelegate.swift */,
+				1B68E3C12052B9CC00DB49BB /* NotificationController.swift */,
+				1B68E3C32052B9CC00DB49BB /* ComplicationController.swift */,
+				1B68E3C52052B9CC00DB49BB /* Assets.xcassets */,
+				1B68E3C72052B9CC00DB49BB /* Info.plist */,
+				1B68E3C82052B9CC00DB49BB /* PushNotificationPayload.apns */,
+			);
+			path = "Podsson WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B68E3802052B9CC00DB49BB /* Podsson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B68E3D32052B9CC00DB49BB /* Build configuration list for PBXNativeTarget "Podsson" */;
+			buildPhases = (
+				1B68E37D2052B9CC00DB49BB /* Sources */,
+				1B68E37E2052B9CC00DB49BB /* Frameworks */,
+				1B68E37F2052B9CC00DB49BB /* Resources */,
+				1B68E3D22052B9CC00DB49BB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B68E3AC2052B9CC00DB49BB /* PBXTargetDependency */,
+			);
+			name = Podsson;
+			productName = Podsson;
+			productReference = 1B68E3812052B9CC00DB49BB /* Podsson.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B68E3942052B9CC00DB49BB /* PodssonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B68E3D62052B9CC00DB49BB /* Build configuration list for PBXNativeTarget "PodssonTests" */;
+			buildPhases = (
+				1B68E3912052B9CC00DB49BB /* Sources */,
+				1B68E3922052B9CC00DB49BB /* Frameworks */,
+				1B68E3932052B9CC00DB49BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B68E3972052B9CC00DB49BB /* PBXTargetDependency */,
+			);
+			name = PodssonTests;
+			productName = PodssonTests;
+			productReference = 1B68E3952052B9CC00DB49BB /* PodssonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B68E39F2052B9CC00DB49BB /* PodssonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B68E3D92052B9CC00DB49BB /* Build configuration list for PBXNativeTarget "PodssonUITests" */;
+			buildPhases = (
+				1B68E39C2052B9CC00DB49BB /* Sources */,
+				1B68E39D2052B9CC00DB49BB /* Frameworks */,
+				1B68E39E2052B9CC00DB49BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B68E3A22052B9CC00DB49BB /* PBXTargetDependency */,
+			);
+			name = PodssonUITests;
+			productName = PodssonUITests;
+			productReference = 1B68E3A02052B9CC00DB49BB /* PodssonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1B68E3A82052B9CC00DB49BB /* Podsson WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B68E3CF2052B9CC00DB49BB /* Build configuration list for PBXNativeTarget "Podsson WatchKit App" */;
+			buildPhases = (
+				1B68E3A72052B9CC00DB49BB /* Resources */,
+				1B68E3CE2052B9CC00DB49BB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B68E3BB2052B9CC00DB49BB /* PBXTargetDependency */,
+			);
+			name = "Podsson WatchKit App";
+			productName = "Podsson WatchKit App";
+			productReference = 1B68E3A92052B9CC00DB49BB /* Podsson WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1B68E3B72052B9CC00DB49BB /* Podsson WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B68E3CB2052B9CC00DB49BB /* Build configuration list for PBXNativeTarget "Podsson WatchKit Extension" */;
+			buildPhases = (
+				1B68E3B42052B9CC00DB49BB /* Sources */,
+				1B68E3B52052B9CC00DB49BB /* Frameworks */,
+				1B68E3B62052B9CC00DB49BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Podsson WatchKit Extension";
+			productName = "Podsson WatchKit Extension";
+			productReference = 1B68E3B82052B9CC00DB49BB /* Podsson WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B68E3792052B9CC00DB49BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Karl Petersson";
+				TargetAttributes = {
+					1B68E3802052B9CC00DB49BB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1B68E3942052B9CC00DB49BB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B68E3802052B9CC00DB49BB;
+					};
+					1B68E39F2052B9CC00DB49BB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1B68E3802052B9CC00DB49BB;
+					};
+					1B68E3A82052B9CC00DB49BB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1B68E3B72052B9CC00DB49BB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1B68E37C2052B9CC00DB49BB /* Build configuration list for PBXProject "Podsson" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B68E3782052B9CC00DB49BB;
+			productRefGroup = 1B68E3822052B9CC00DB49BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B68E3802052B9CC00DB49BB /* Podsson */,
+				1B68E3942052B9CC00DB49BB /* PodssonTests */,
+				1B68E39F2052B9CC00DB49BB /* PodssonUITests */,
+				1B68E3A82052B9CC00DB49BB /* Podsson WatchKit App */,
+				1B68E3B72052B9CC00DB49BB /* Podsson WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B68E37F2052B9CC00DB49BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B68E38F2052B9CC00DB49BB /* LaunchScreen.storyboard in Resources */,
+				1B68E38C2052B9CC00DB49BB /* Assets.xcassets in Resources */,
+				1B68E38A2052B9CC00DB49BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B68E3932052B9CC00DB49BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B68E39E2052B9CC00DB49BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B68E3A72052B9CC00DB49BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B68E3B22052B9CC00DB49BB /* Assets.xcassets in Resources */,
+				1B68E3B02052B9CC00DB49BB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B68E3B62052B9CC00DB49BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B68E3C62052B9CC00DB49BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B68E37D2052B9CC00DB49BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B68E3872052B9CC00DB49BB /* ViewController.swift in Sources */,
+				1B68E3852052B9CC00DB49BB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B68E3912052B9CC00DB49BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B68E39A2052B9CC00DB49BB /* PodssonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B68E39C2052B9CC00DB49BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B68E3A52052B9CC00DB49BB /* PodssonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B68E3B42052B9CC00DB49BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B68E3C22052B9CC00DB49BB /* NotificationController.swift in Sources */,
+				1B68E3C42052B9CC00DB49BB /* ComplicationController.swift in Sources */,
+				1B68E3C02052B9CC00DB49BB /* ExtensionDelegate.swift in Sources */,
+				1B68E3BE2052B9CC00DB49BB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B68E3972052B9CC00DB49BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B68E3802052B9CC00DB49BB /* Podsson */;
+			targetProxy = 1B68E3962052B9CC00DB49BB /* PBXContainerItemProxy */;
+		};
+		1B68E3A22052B9CC00DB49BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B68E3802052B9CC00DB49BB /* Podsson */;
+			targetProxy = 1B68E3A12052B9CC00DB49BB /* PBXContainerItemProxy */;
+		};
+		1B68E3AC2052B9CC00DB49BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B68E3A82052B9CC00DB49BB /* Podsson WatchKit App */;
+			targetProxy = 1B68E3AB2052B9CC00DB49BB /* PBXContainerItemProxy */;
+		};
+		1B68E3BB2052B9CC00DB49BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B68E3B72052B9CC00DB49BB /* Podsson WatchKit Extension */;
+			targetProxy = 1B68E3BA2052B9CC00DB49BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B68E3882052B9CC00DB49BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B68E3892052B9CC00DB49BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B68E38D2052B9CC00DB49BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B68E38E2052B9CC00DB49BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1B68E3AE2052B9CC00DB49BB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B68E3AF2052B9CC00DB49BB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B68E3C92052B9CC00DB49BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B68E3CA2052B9CC00DB49BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B68E3CC2052B9CC00DB49BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ERX52J3BS;
+				INFOPLIST_FILE = "Podsson WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.petersson.karl.Podsson.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		1B68E3CD2052B9CC00DB49BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ERX52J3BS;
+				INFOPLIST_FILE = "Podsson WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.petersson.karl.Podsson.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		1B68E3D02052B9CC00DB49BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ERX52J3BS;
+				IBSC_MODULE = Podsson_WatchKit_Extension;
+				INFOPLIST_FILE = "Podsson WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.petersson.karl.Podsson.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Debug;
+		};
+		1B68E3D12052B9CC00DB49BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ERX52J3BS;
+				IBSC_MODULE = Podsson_WatchKit_Extension;
+				INFOPLIST_FILE = "Podsson WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.petersson.karl.Podsson.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.2;
+			};
+			name = Release;
+		};
+		1B68E3D42052B9CC00DB49BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ERX52J3BS;
+				INFOPLIST_FILE = Podsson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.petersson.karl.Podsson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B68E3D52052B9CC00DB49BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ERX52J3BS;
+				INFOPLIST_FILE = Podsson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.petersson.karl.Podsson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B68E3D72052B9CC00DB49BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ERX52J3BS;
+				INFOPLIST_FILE = PodssonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.petersson.karl.PodssonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Podsson.app/Podsson";
+			};
+			name = Debug;
+		};
+		1B68E3D82052B9CC00DB49BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ERX52J3BS;
+				INFOPLIST_FILE = PodssonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.petersson.karl.PodssonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Podsson.app/Podsson";
+			};
+			name = Release;
+		};
+		1B68E3DA2052B9CC00DB49BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ERX52J3BS;
+				INFOPLIST_FILE = PodssonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.petersson.karl.PodssonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Podsson;
+			};
+			name = Debug;
+		};
+		1B68E3DB2052B9CC00DB49BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ERX52J3BS;
+				INFOPLIST_FILE = PodssonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.petersson.karl.PodssonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Podsson;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B68E37C2052B9CC00DB49BB /* Build configuration list for PBXProject "Podsson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B68E3C92052B9CC00DB49BB /* Debug */,
+				1B68E3CA2052B9CC00DB49BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B68E3CB2052B9CC00DB49BB /* Build configuration list for PBXNativeTarget "Podsson WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B68E3CC2052B9CC00DB49BB /* Debug */,
+				1B68E3CD2052B9CC00DB49BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B68E3CF2052B9CC00DB49BB /* Build configuration list for PBXNativeTarget "Podsson WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B68E3D02052B9CC00DB49BB /* Debug */,
+				1B68E3D12052B9CC00DB49BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B68E3D32052B9CC00DB49BB /* Build configuration list for PBXNativeTarget "Podsson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B68E3D42052B9CC00DB49BB /* Debug */,
+				1B68E3D52052B9CC00DB49BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B68E3D62052B9CC00DB49BB /* Build configuration list for PBXNativeTarget "PodssonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B68E3D72052B9CC00DB49BB /* Debug */,
+				1B68E3D82052B9CC00DB49BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B68E3D92052B9CC00DB49BB /* Build configuration list for PBXNativeTarget "PodssonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B68E3DA2052B9CC00DB49BB /* Debug */,
+				1B68E3DB2052B9CC00DB49BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B68E3792052B9CC00DB49BB /* Project object */;
+}
